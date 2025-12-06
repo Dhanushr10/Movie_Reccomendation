@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommendations</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🔥 Top Recommendations for "<span style='color:#ff4da6;'>{{ movie_name }}</span>"</h1>
+
+    <ul>
+        {% for m in recs %}
+            <li>🎥 {{ m }}</li>
+        {% endfor %}
+    </ul>
+
+    <a href="/" class="btn">🔄 Search Again</a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Base */
+body {
+    background: #111;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Container */
+.container {
+    width: 40%;
+    margin: auto;
+    margin-top: 70px;
+    background: #1a1a1a;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 0 18px rgba(255, 0, 0, 0.15);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #ff4d4d;
+}
+
+/* Dropdown + Button */
+select, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 18px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+select {
+    background: #2b2b2b;
+    color: #fff;
+}
+
+button {
+    background: #ff3b3b;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+button:hover {
+    background: #e60000;
+    transform: scale(1.03);
+}
+
+/* Recommendation List */
+ul li {
+    background: #262626;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 10px;
+    list-style: none;
+    transition: 0.3s;
+}
+
+ul li:hover {
+    background: #333;
+    transform: translateX(6px);
+}
+
+/* Search Again Button */
+.btn {
+    display: block;
+    text-align: center;
+    background: #ff3b3b;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.25s ease;
+}
+
+.btn:hover {
+    background: #e60000;
+    transform: scale(1.03);
+}
